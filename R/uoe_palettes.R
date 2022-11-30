@@ -2,7 +2,7 @@
 
 #' Complete list of palettes.
 #'
-#' Use names(uoe_palettes) to return all possible palette names. Current choices are:
+#' Use \code{names(uoe_palettes)} to return all possible palette names. Current choices are:
 #' \code{primary}, \code{secondary}, or \code{combined}.
 #' Use \code{\link{uoe_brewer}} to construct palettes.
 #'

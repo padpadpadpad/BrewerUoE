@@ -1,7 +1,7 @@
-
 # BrewerUoE
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
 ## Outline
@@ -12,12 +12,25 @@ The colour palettes shown are taken from the University of Exeter 2022 [branding
 
 ## Issues, Bugs, and Suggestions
 
-Issues, bugs, and suggestions can be added to the Issues tab of this repository or please email Daniel Padfield at d.padfield@exeter.ac.uk.
+Issues, bugs, and suggestions can be added to the Issues tab of this repository or please email Daniel Padfield at [d.padfield\@exeter.ac.uk](mailto:d.padfield@exeter.ac.uk){.email}.
 
 ## Installation
 
-This package can be installed using `remotes::install_github('padpadpadpad/BrewerUoE')`
+This package can be installed using `remotes::install_github('padpadpadpad/BrewerUoE')`.
 
 ## Usage
 
+All the colours are stored and can be accessed using **uoe_colours()**. We can get the hex codes out very easily.
 
+```{r}
+
+# we can look what names are available for the colours
+names(uoe_colours())
+
+# access all the colours
+uoe_colours()
+
+# we can access only specific colours
+uoe_colours(c('Exeter Dark Green', 'Exeter Deep Green', 'Exeter Highlight Green'))
+
+```
